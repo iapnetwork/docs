@@ -29,6 +29,49 @@ With its next generation of distributed ledger technology, the IAP brings blockc
 
 Designed to be fully compatible with all generations of blockchains, the IAP works alongside existing non blockchain systems, protocols, and legacy technology to provide a bridge to decentralised services and facilitation of the enhanced security, monitoring and control they can provide.
 
+## Index
+
+- [Information Assurance Platform: Blockchain information assurance and artificial intelligence for decentralised security and attestation (IAP)](#information-assurance-platform-blockchain-information-assurance-and-artificial-intelligence-for-decentralised-security-and-attestation-iap)
+  - [Abstract](#abstract)
+  - [Index](#index)
+  - [1.0 The Problem](#10-the-problem)
+    - [1.1 Background](#11-background)
+    - [1.2 Decentralisation VS. Centralisation](#12-decentralisation-vs-centralisation)
+  - [2.0 The IAP](#20-the-iap)
+    - [2.1 Vision](#21-vision)
+    - [2.2 Components](#22-components)
+    - [2.3 Participants](#23-participants)
+    - [2.4 Polycentric Governance, Ethics, and Distributed Autonomous Organisations](#24-polycentric-governance-ethics-and-distributed-autonomous-organisations)
+    - [2.5 Universal Daemons & CyberStates](#25-universal-daemons--cyberstates)
+    - [2.6 CyberTraces (Assurance Proofs) & CyberShields (Computational Verifications)](#26-cybertraces-assurance-proofs--cybershields-computational-verifications)
+    - [2.7 CyberChains (Evidence Chains)](#27-cyberchains-evidence-chains)
+    - [2.8 Global Reality State Transition System](#28-global-reality-state-transition-system)
+  - [3.0 Blockliance](#30-blockliance)
+    - [3.1 Blockliance Mission](#31-blockliance-mission)
+    - [3.2 The Problem & Background](#32-the-problem--background)
+    - [3.3 The System](#33-the-system)
+    - [3.4 The System Parts](#34-the-system-parts)
+    - [3.5 Blockliance Participants](#35-blockliance-participants)
+    - [3.6 Distributed Autonomous Organisations (DAOs)](#36-distributed-autonomous-organisations-daos)
+    - [3.7 Risk Ratings, Security Postures & Insurance Premiums](#37-risk-ratings-security-postures--insurance-premiums)
+  - [4.0 Roadmap](#40-roadmap)
+  - [5.0 Distributed Ledger Technology (DLT) vs. Blockchain](#50-distributed-ledger-technology-dlt-vs-blockchain)
+  - [6.0 Other Applications](#60-other-applications)
+    - [Cybersecurity](#cybersecurity)
+    - [Development Operations & Security](#development-operations--security)
+    - [Society, Charity, Humanitarian](#society-charity-humanitarian)
+    - [Identity management & Privacy](#identity-management--privacy)
+    - [Medical & Health](#medical--health)
+    - [Business](#business)
+    - [Government](#government)
+    - [Law enforcement](#law-enforcement)
+  - [The Team](#the-team)
+    - [Founders](#founders)
+    - [Founding Team Members](#founding-team-members)
+    - [Industry Advisors](#industry-advisors)
+  - [Partners](#partners)
+  - [References](#references)
+
 ## 1.0 The Problem
 
 ### 1.1 Background
