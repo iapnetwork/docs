@@ -8,3 +8,4 @@ This is the storage area for IAP published documents.
 
 - [IAP White Paper](whitepapers/iap-whitepaper.md)
 - [IAP Technical White Paper](whitepapers/technical-whitepaper.md)
+- [Computational Verification and Privacy White Paper](whitepapers/crypto-whitepaper.md)
