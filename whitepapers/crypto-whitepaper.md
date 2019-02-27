@@ -850,7 +850,7 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Vulnerability management</td>
     <td>"Software x  complies with security controls y"</td>
     <td>Software code & configuration</td>
-    <td></td>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S0167404817300664">Research Paper<a/></td>
   </tr>
   <tr>
     <td>Intrusion detection and analysis machine learning and AI</td>
@@ -862,13 +862,13 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Source code malware analysis with machine learning</td>
     <td>"Source code x is free of known malware indicators"</td>
     <td>Source code</td>
-    <td>Set membership</td>
+    <td><a href="https://arxiv.org/pdf/1601.01405.pdf">BitAV<a/></td>
   </tr>
   <tr>
     <td>Disaster Recovery and Data Redundancy</td>
     <td>"We have computed backups at date X and successfully transmitted them to site Y"<br>"Operational procedure X was successfully tested at site Y with expected outcome Z"</td>
     <td>Data</td>
-    <td></td>
+    <td><a href="https://console.bluemix.net/docs/services/Cloudant/guides/disaster-recovery-and-backup.html#disaster-recovery-and-backup">IBM Cloud<a/></td>
   </tr>
   <tr>
     <td>Digital forensics</td>
@@ -922,7 +922,7 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Assurance of expenditures</td>
     <td>"I've spend amount x on expense y"</td>
     <td>Amount x</td>
-    <td></td>
+    <td><a href="https://www.aicpa.org/interestareas/notforprofit/resources/assurance.html">Nonprofit Assurance<a/></td>
   </tr>
   <tr>
     <td>Asset tracking</td>
@@ -970,7 +970,7 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Assurance of compliance and best practices</td>
     <td>"Process x has been computed following y steps"</td>
     <td>Y steps</td>
-    <td></td>
+    <td><a href="https://www.aapc.com/healthcare-compliance/healthcare-compliance.aspx">Healthcare compliance<a/></td>
   </tr>
   <tr>
     <td colspan="4"><img src="https://via.placeholder.com/5x13/2A2298/FFFFFF?text=+++"> <b>Business</b></td>
@@ -1000,13 +1000,13 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Transparency of spending and allocation</td>
     <td>"We've spend amount x on y"</td>
     <td>amount x</td>
-    <td></td>
+    <td><a href="https://sunlightfoundation.com/policy/documents/budget-and-spending-transparency/">Government transparency<a/></td>
   </tr>
   <tr>
     <td>Proof of process</td>
     <td>"Y is the result of executing process x"</td>
     <td>process x</td>
-    <td></td>
+    <td><a href="https://sunlightfoundation.com/policy/documents/budget-and-spending-transparency/">Government transparency<a/></td>
   </tr>
   <tr>
     <td>Tax</td>
@@ -1018,16 +1018,10 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td colspan="4"><img src="https://via.placeholder.com/5x13/2A2298/FFFFFF?text=+++"> <b>Law Enforcement</b></td>
   </tr>
   <tr>
-    <td>Transparency of process</td>
-    <td>Y is the result of x steps of process z</td>
-    <td>X steps of process z</td>
-    <td></td>
-  </tr>
-  <tr>
     <td>Equality of application of law</td>
     <td>"Case x and y result in charge z"</td>
     <td>Cases x and y</td>
-    <td></td>
+    <td><a href="https://books.google.com/books?hl=en&lr=&id=AzDGWwKmFBwC&oi=fnd&pg=PA61&dq=law+enforcement+transparency&ots=GIA4H_gLOa&sig=kOAr4RVHy4pmSnV0Px1ghbF8sbQ#v=onepage&q=law%20enforcement%20transparency&f=false">Book<a/></td>
   </tr>
   <tr>
     <td>Verification of data with privacy</td>
