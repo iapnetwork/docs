@@ -838,7 +838,7 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Digital identity, authentication and signing of video/audio</td>
     <td>"I am x"<br>"I want to prove my signature"</td>
     <td>Identity<br>Signature</td>
-    <td>Set membership<br>f(x)</td>
+    <td><a href="https://en.wikipedia.org/wiki/Element_(mathematics)">Set membership<br>f(x)<a/></td>
   </tr>
   <tr>
     <td>Secure code scanning</td>
