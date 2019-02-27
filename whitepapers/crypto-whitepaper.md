@@ -994,7 +994,7 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Direct politics</td>
     <td>"Person X does not exist within voting set Y"</td>
     <td>Person x</td>
-    <td>Set membership</td>
+    <td><a href="https://en.wikipedia.org/wiki/Element_(mathematics)">Set membership<a/></td>
   </tr>
   <tr>
     <td>Transparency of spending and allocation</td>
