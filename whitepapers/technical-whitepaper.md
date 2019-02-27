@@ -885,7 +885,7 @@ The IAP offers many possible solutions to improve transparency of computational 
     <td>Digital identity, authentication and signing of video/audio</td>
     <td>“I am x”<br>“I want to prove my signature”</td>
     <td>Identity<br>Signature</td>
-    <td>Set membership<br>f(x)</td>
+    <td><a href="https://en.wikipedia.org/wiki/Element_(mathematics)">Set membership<br>f(x)<a/></td>
   </tr>
   <tr>
     <td>Secure code scanning</td>
@@ -897,37 +897,37 @@ The IAP offers many possible solutions to improve transparency of computational 
     <td>Vulnerability management</td>
     <td>“Software x  complies with security controls y”</td>
     <td>Software code & configuration</td>
-    <td></td>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S0167404817300664">Research Paper<a/></td>
   </tr>
   <tr>
     <td>Intrusion detection and analysis machine learning and AI</td>
     <td>“A baseline X has been interrupted by type Y”</td>
     <td>Historical activity of systems in aggregate</td>
-    <td></td>
+    <td><a href="http://www.ijmer.com/papers/Vol2_Issue5/CJ2535123516.pdf">Research Paper</a></td>
   </tr>
   <tr>
     <td>Source code malware analysis with machine learning</td>
     <td>“Source code x is free of known malware indicators”</td>
     <td>Source code</td>
-    <td>Set membership</td>
+    <td><a href="https://arxiv.org/pdf/1601.01405.pdf">BitAV<a/></td>
   </tr>
   <tr>
     <td>Disaster Recovery and Data Redundancy</td>
     <td>“We have computed backups at date X and successfully transmitted them to site Y”<br>“Operational procedure X was successfully tested at site Y with expected outcome Z”</td>
     <td>Data</td>
-    <td></td>
+    <td><a href="https://console.bluemix.net/docs/services/Cloudant/guides/disaster-recovery-and-backup.html#disaster-recovery-and-backup">IBM Cloud<a/></td>
   </tr>
   <tr>
     <td>Digital forensics</td>
     <td>“Hash X was computed using library Y”</td>
     <td>Confidential data</td>
-    <td></td>
+    <td><a href="https://cis.upenn.edu/~sga001/papers/spice-osdi18.pdf">Research Paper<a/></td>
   </tr>
   <tr>
     <td>Change management & auditing, FIM</td>
     <td>“Approved Change X was deployed using procedure Y with integrity”</td>
     <td>Yes<br>Historical valid file changes</td>
-    <td></td>
+    <td><a href="https://dci.mit.edu/zkledger/">zkledger</a></td>
   </tr>
   <tr>
     <td colspan="4"><img src="https://via.placeholder.com/5x13/2A2298/FFFFFF?text=+++"> <b>Development, Operations & Security</b></td>
@@ -936,13 +936,13 @@ The IAP offers many possible solutions to improve transparency of computational 
     <td>Smart contract security</td>
     <td>“smart contract x follows security requirement y”</td>
     <td>Smart Contract</td>
-    <td></td>
+    <td><a href="https://www.aztecprotocol.com/">aztec protocol</a></td>
   </tr>
   <tr>
     <td>Secure continuous delivery assurance</td>
     <td>“Item x has been processed at location y”</td>
     <td>Location y</td>
-    <td></td>
+    <td><a href="https://www.chronicled.com/solutions">Chronicled<a/></td>
   </tr>
   <tr>
     <td>Asset discovery and scanning</td>
@@ -957,19 +957,19 @@ The IAP offers many possible solutions to improve transparency of computational 
     <td>Transparency in donations and funding</td>
     <td>“Agency accepted donation amount x from entity y, x is within the approved donation range,  y is on the list of approved donors”</td>
     <td>Amount x, Entity y</td>
-    <td></td>
+    <td><a href="https://www.researchgate.net/publication/329374059_Determinants_and_Consequences_of_Nonprofit_Transparency">Research Paper<a/></td>
   </tr>
   <tr>
     <td>Non-profit agency spending</td>
     <td>“Agency spent money on x, and x is within the set of approved expenses”</td>
     <td>Expense x</td>
-    <td></td>
+    <td><a href="https://www.researchgate.net/publication/329374059_Determinants_and_Consequences_of_Nonprofit_Transparency">Research paper<a/></td>
   </tr>
   <tr>
     <td>Assurance of expenditures</td>
     <td>“I’ve spend amount x on expense y”</td>
     <td>Amount x</td>
-    <td></td>
+    <td><a href="https://www.aicpa.org/interestareas/notforprofit/resources/assurance.html">Nonprofit Assurance<a/></td>
   </tr>
   <tr>
     <td>Asset tracking</td>
@@ -983,26 +983,26 @@ The IAP offers many possible solutions to improve transparency of computational 
   <tr>
     <td>Account takeovers mitigation</td>
     <td>I am the authorised person to access account x</td>
-    <td>identity</td>
-    <td></td>
+    <td>Identity</td>
+    <td><a href="https://sovrin.org/the-sovrin-network-and-zero-knowledge-proofs/">Sovrin</a></td>
   </tr>
   <tr>
     <td>Personal document assurance</td>
     <td>“My passport number is y”</td>
     <td>Passport information</td>
-    <td></td>
+    <td><a href="https://www.ibm.com/blogs/blockchain/2019/01/privacy-in-blockchain-collaboration-with-zero-knowledge-proofs/">IBM Blockchain Platform</a></td>
   </tr>
   <tr>
     <td>Qualifications and education assurance</td>
     <td>“I have qualification x”<br>“I have a MSc degree in y”</td>
     <td>Qualification certificate</td>
-    <td></td>
+    <td><a href="https://tiiqu.com/">TiiQu<a/></td>
   </tr>
   <tr>
     <td>Licensing assurance</td>
     <td>“I have license x”</td>
     <td>Licence certificate</td>
-    <td></td>
+    <td><a href="https://www.chronicled.com/solutions">Chronicled<a/></td>
   </tr>
   <tr>
     <td colspan="4"><img src="https://via.placeholder.com/5x13/2A2298/FFFFFF?text=+++"> <b>Medical Health</b></td>
@@ -1011,13 +1011,13 @@ The IAP offers many possible solutions to improve transparency of computational 
     <td>Medical record integrity and trust</td>
     <td>“Patient x has disease y”</td>
     <td>Patient record</td>
-    <td></td>
+    <td><a href="https://iryo.network/iryo_whitepaper.pdf">Iryo<a/></td>
   </tr>
   <tr>
     <td>Assurance of compliance and best practices</td>
     <td>“Process x has been computed following y steps”</td>
     <td>Y steps</td>
-    <td></td>
+    <td><a href="https://www.aapc.com/healthcare-compliance/healthcare-compliance.aspx">Healthcare compliance<a/></td>
   </tr>
   <tr>
     <td colspan="4"><img src="https://via.placeholder.com/5x13/2A2298/FFFFFF?text=+++"> <b>Business</b></td>
@@ -1025,7 +1025,7 @@ The IAP offers many possible solutions to improve transparency of computational 
   <tr>
     <td>KYC, AML, anti-fraud</td>
     <td>“I am person x”</td>
-    <td>identity</td>
+    <td>Identity</td>
     <td><a href="https://www.bitrates.com/news/p/ing-bank-introduces-new-zero-knowledge-privacy-tool-with-kyc-applications">ING</a>, <a href="https://sphereidentity.com/">Sphere</a></td>
   </tr>
   <tr>
@@ -1034,32 +1034,32 @@ The IAP offers many possible solutions to improve transparency of computational 
   <tr>
     <td>Polling of electorate (referendums, elections)</td>
     <td>“Votes x1...xn sum to y”</td>
-    <td>votes x1...xn</td>
+    <td>Votes x1...xn</td>
     <td><a href="https://stratumn.com/thinking/zero-knowledge-proof-systems-in-anonymous-publicly-verifiable-boardroom-elections/">Stratumn</a></td>
   </tr>
   <tr>
     <td>Direct politics</td>
     <td>"Person X does not exist within voting set Y”</td>
     <td>Person x</td>
-    <td>Set membership</td>
+    <td><a href="https://en.wikipedia.org/wiki/Element_(mathematics)">Set membership<a/></td>
   </tr>
   <tr>
     <td>Transparency of spending and allocation</td>
     <td>“We’ve spend amount x on y”</td>
-    <td>amount x</td>
-    <td></td>
+    <td>Amount x</td>
+    <td><a href="https://sunlightfoundation.com/policy/documents/budget-and-spending-transparency/">Government transparency<a/></td>
   </tr>
   <tr>
     <td>Proof of process</td>
     <td>“Y is the result of executing process x”</td>
-    <td>process x</td>
-    <td></td>
+    <td>Process x</td>
+    <td><a href="https://sunlightfoundation.com/policy/documents/budget-and-spending-transparency/">Government transparency<a/></td>
   </tr>
   <tr>
     <td>Tax</td>
     <td>“For item x I’ve paid y tax”</td>
     <td>Item x, tax amount y</td>
-    <td></td>
+    <td><a href="https://qed-it.com/2018/06/25/zero-knowledge-taxation-on-ethereum/">QED-it</a></td>
   </tr>
   <tr>
     <td colspan="4"><img src="https://via.placeholder.com/5x13/2A2298/FFFFFF?text=+++"> <b>Law Enforcement</b></td>
@@ -1074,31 +1074,31 @@ The IAP offers many possible solutions to improve transparency of computational 
     <td>Equality of application of law</td>
     <td>“Case x and y result in charge z”</td>
     <td>Cases x and y</td>
-    <td></td>
+    <td><a href="https://books.google.com/books?hl=en&lr=&id=AzDGWwKmFBwC&oi=fnd&pg=PA61&dq=law+enforcement+transparency&ots=GIA4H_gLOa&sig=kOAr4RVHy4pmSnV0Px1ghbF8sbQ#v=onepage&q=law%20enforcement%20transparency&f=false">Book<a/></td>
   </tr>
   <tr>
     <td>Verification of data with privacy</td>
     <td>“Y is the result of f(x)”</td>
-    <td>data input x</td>
-    <td></td>
+    <td>Data input x</td>
+    <td><a href="https://qed-it.com/#the-solution">QED-it</a></td>
   </tr>
   <tr>
     <td>Chain of Custody</td>
     <td>“Party X transferred item y to Party Z”</td>
     <td>Item y</td>
-    <td></td>
+    <td><a href="https://www.chronicled.com/solutions">Chronicled</a></td>
   </tr>
   <tr>
     <td>Integrity of evidence</td>
     <td>“Evidence x has not been altered”</td>
     <td>Evidence</td>
-    <td></td>
+    <td><a href="https://stratumn.com/thinking/in-proofs-we-trust/">Stratumn</a></td>
   </tr>
   <tr>
     <td>Presence of suspect in database</td>
     <td>“Suspect X has not had a record in Database Y before”</td>
     <td>Evidence</td>
-    <td></td>
+    <td><a href="https://github.com/ing-bank/zkproofs">ING</a></td>
   </tr>
 </table>
 
