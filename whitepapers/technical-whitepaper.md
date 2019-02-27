@@ -1544,20 +1544,20 @@ This IAP Technical White Paper is for information purposes only. IAP Network doe
 
 <a id="91">[91]</a> "Ligero - ACM Digital Library - Association for Computing Machinery." 30 Oct. 2017, <https://dl.acm.org/citation.cfm?id=3134104>.<br>
 
-<a id="a1">[A1]</a> “IAP Network - Products”, <https://iap.network/product>.<br>
+<a id="a1">[A1]</a> “IAP Network - Products”, <https://iap.network/products>.<br>
 
-<a id="a2">[A2]</a> "IAP Whitepaper - Information Assurance Platform (IAP)." <https://iapnetwork.github.io/docs/whitepapers/iap-whitepaper.html>.<br>
+<a id="a2">[A2]</a> "IAP Whitepaper - Information Assurance Platform (IAP)." <https://github.com/iapnetwork/docs/blob/master/whitepapers/iap-whitepaper.md>.<br>
 
-<a id="a3">[A3]</a> “Information Assurance Platform: Computational Verification and Privacy”, IAP Network, <https://iapnetwork.github.io/docs/whitepapers/crypto-whitepaper.html>.<br>
+<a id="a3">[A3]</a> “Information Assurance Platform: Computational Verification and Privacy”, IAP Network, <https://github.com/iapnetwork/docs/blob/master/whitepapers/crypto-whitepaper.md>.<br>
 
 <a id="a4">[A4]</a> “Information Assurance Platform: Machine Intelligence Overview”, IAP Network, <https://iapnetwork.github.io/docs/whitepapers/ai-whitepaper.html>.<br>
 
 <a id="a5">[A5]</a> See “Ethical Considerations and Long Term Vision”, Information Assurance Platform, Boulter et al. <https://iapnetwork.github.io/docs/whitepapers/ethical-paper.html>.<br>
 
-<a id="a6">[A6]</a> Section 2.5 “Universal Daemons”, "IAP Whitepaper - Information Assurance Platform (IAP)." <https://iapnetwork.github.io/docs/whitepapers/iap-whitepaper.html#25-universal-daemons>.<br>
+<a id="a6">[A6]</a> Section 2.5 “Universal Daemons”, "IAP Whitepaper - Information Assurance Platform (IAP)." <https://github.com/iapnetwork/docs/blob/master/whitepapers/iap-whitepaper.md#25-universal-daemons--cyberstates>.<br>
 
 <a id="a7">[A7]</a> Information Assurance Platform, “Token Economy Overview”, <https://iapnetwork.github.io/docs/whitepapers/token-economics.html>.<br>
 
 <a id="a8">[A8]</a> IAP Open Standard mailing list, <https://iap.network/iapos>.<br>
 
-<a id="a9">[A9]</a> Section “Computational Complexity Classes”, “Information Assurance Platform: Computational Verification and Privacy”, IAP Network, <https://iapnetwork.github.io/docs/whitepapers/crypto-whitepaper.html#computational+complexity+classes>.<br>
+<a id="a9">[A9]</a> Section “Computational Complexity Classes”, “Information Assurance Platform: Computational Verification and Privacy”, IAP Network, <https://github.com/iapnetwork/docs/blob/master/whitepapers/crypto-whitepaper.md#computational-complexity-classes>.<br>
