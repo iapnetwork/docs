@@ -826,7 +826,7 @@ The following table briefly outlines the use of ZK Proofs for the IAP use cases 
     <td>Supply Chain Security</td>
     <td>"I am participant x"<br>"Box x contains content y"</td>
     <td>Identity<br>Content of Cargo</td>
-    <td><a href="https://medium.com/@adrianbarwicki/the-path-to-supply-chain-transparency-with-origintrail-dc25cbd67*a*<sub>0</sub>3">OriginTrail</a></td>
+    <td><a href="https://medium.com/@adrianbarwicki/the-path-to-supply-chain-transparency-with-origintrail-dc25cbd67a03">OriginTrail</a></td>
   </tr>
   <tr>
     <td>Internet of Things (IoT) device monitoring and control</td>
