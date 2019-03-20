@@ -455,6 +455,8 @@ There are a growing number of potential use cases for IAP. Research into feasibi
 
 ### Industry Advisors
 
+- Paul Ashburn, Co-Managing Partner, BDO
+- Jeff Hall, PCI Guru
 - Daniel Miessler, Cybersecurity Director & Author
 - David Langer, Business Development
 - Chris Doerfler, Blockchain & Governance
