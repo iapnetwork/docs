@@ -82,7 +82,7 @@ Society requires trusted third parties in order to mitigate the risks of trust a
 
 The problem manifests itself in many ways for individuals: higher prices for medical insurance<sup>[4](#4)</sup>, refusal or unequal costs for privileges such as financial support and the loss of career opportunities. Individuals spending or donating their money or time sometimes doubt the credibility or ethical standard of a producer or organisation involved in the supply chain of a product.
 
-The problem presents itself persistently in the Internet of Things (IoT). Separate categories of devices used to exist, but the modern home or business landscape is made up of different kinds of computers labeled slightly differently, many of them not looking like computers in the traditional sense. Far from just entertainment or professional peripherals, computers run public transport including aeroplanes, lifesaving technology such as internal medical devices and almost everything else in between. Specific purpose computers are built for all imaginable uses  3 from keeping our food cold to warming our homes. Whether these individual but slightly different computers remain, or they are replaced by a more general purpose computer, it is clear that our future socio-economic problems will involve computers and that more generally; computers will be running inside most things. A central problem therefore is the safety, monitoring and control of such devices, systems and networks. The IAP, with its IAP client and agent makes solving these issues feasible.
+The problem presents itself persistently in the Internet of Things (IoT). Separate categories of devices used to exist, but the modern home or business landscape is made up of different kinds of computers labeled slightly differently, many of them not looking like computers in the traditional sense. Far from just entertainment or professional peripherals, computers run public transport including aeroplanes, lifesaving technology such as internal medical devices and almost everything else in between. Specific purpose computers are built for all imaginable uses from keeping our food cold to warming our homes. Whether these individual but slightly different computers remain, or they are replaced by a more general purpose computer, it is clear that our future socio-economic problems will involve computers and that more generally; computers will be running inside most things. A central problem therefore is the safety, monitoring and control of such devices, systems and networks. The IAP, with its IAP client and agent makes solving these issues feasible.
 
 Our inability to trust the information we are given about the world presents unique but common problems in the assessment of risk and the estimation of costs to our time, energy and money. This gives us, and the systems we use and rely upon, an inaccurate picture of reality that is based on guesswork. The data that we can collect is typically stale by the time we seek to use it, resulting in our predictions being based on inductively forceful logic instead of real-time facts. We currently expect and assume this level of imprecision and accept the risks involved in making guesses about the actual state of reality. In many cases, the validity period of data points are shorter than their period of acquisition, making many facts true only ‘in the past tense’. We accept this as a normal state of affairs, but a true picture of reality would allow us to answer a variety of significant questions that can enhance decision making and reduce risk.
 
@@ -94,7 +94,7 @@ In more stable parts of the globe, recent misadventures in economic policy, corp
 
 ### 1.2 Decentralisation VS. Centralisation
 
-This reliance on centralisation affects day to day life. Our performance, reputation, activities, achievements, qualifications, education, certifications, skills and things we cannot directly prove  4 or attest to in any trustless way are expected to be arguable points; issues of perspective, interpretation and personal bias. Society places trust in centralised authorities outside of our control. Trust in these authorities is established over centuries, or enforced via laws, coercion or instilled by marketing, public relations and other techniques, all of which says nothing deductively for their future credibility or trustworthiness. In some cases, centralisation provides an appropriate model and is a strong alternative even when considering some forms of decentralised ledger technologies. In such cases, our concern for the privacy of activities, or certain data points related to them, and our inability to trust external parties (or ourselves) to manage this risk, leads to a choice being made between the siloing of information and associated risks, or the loss of privacy and associated risks.
+This reliance on centralisation affects day to day life. Our performance, reputation, activities, achievements, qualifications, education, certifications, skills and things we cannot directly prove or attest to in any trustless way are expected to be arguable points; issues of perspective, interpretation and personal bias. Society places trust in centralised authorities outside of our control. Trust in these authorities is established over centuries, or enforced via laws, coercion or instilled by marketing, public relations and other techniques, all of which says nothing deductively for their future credibility or trustworthiness. In some cases, centralisation provides an appropriate model and is a strong alternative even when considering some forms of decentralised ledger technologies. In such cases, our concern for the privacy of activities, or certain data points related to them, and our inability to trust external parties (or ourselves) to manage this risk, leads to a choice being made between the siloing of information and associated risks, or the loss of privacy and associated risks.
 
 Centralised silos of data represent both immense value and significant risk to their owners. Individuals are given little choice as to how their data is handled. In the majority of cases the data provided is not controlled by the source of that data. Long, complicated legal statements are required for the most basic of activities and services, the detailed implications of which are generally not widely understood. As such, society operates under an anticipation and assumption of loss; the loss of control, the loss of data and the loss of certain rights. The owners of these silos (government, corporations and institutions) operate within similarly risk-bound constraints. Failure to properly manage the confidentiality, integrity and availability of their data, or the data of their users, has become a common news story of the internet age<sup>[5](#5),[6](#6)</sup>. Neither side accepts the risks; significant resources, in the form of public funds, business costs, and taxes on the electorate are spent in treating these risks.
 
@@ -105,8 +105,8 @@ Decentralisation replaces trust in single third parties with trust in axiomatic 
 
 ### 2.1 Vision
 
-IAP Vision: *“The Information Assurance Platform aspires to conquer the issue of trust and assurance, enabling risk free information assurance for devices, individuals, organisations,
-companies and governments globally.”*
+IAP Vision: _“The Information Assurance Platform aspires to conquer the issue of trust and assurance, enabling risk free information assurance for devices, individuals, organisations,
+companies and governments globally.”_
 
 ### 2.2 Components
 
@@ -178,13 +178,13 @@ The result is a more accurate picture of the state of reality that combined with
 
 ### 3.1 Blockliance Mission
 
-Blockliance Mission: *“Through automation and assurance, we improve GRC outcomes, by enabling implicit trust and safety between parties, in order to save time and money while enhancing corporate partnerships and safety for consumers and end users.”*
+Blockliance Mission: _“Through automation and assurance, we improve GRC outcomes, by enabling implicit trust and safety between parties, in order to save time and money while enhancing corporate partnerships and safety for consumers and end users.”_
 
 ### 3.2 The Problem & Background
 
-Current efforts to reach regulatory compliance are costly, unreliable and difficult to scale for most organisations. Engaging in these mandated projects frequently requires expertise in the particular framework in question, often with very different methodologies and levels of proscription and assessment. This has led to the compliance consulting industry being worth an estimated $65 billion annually<sup>[12](#12)</sup> by 2025. The highest cost for these consultancies is that of quality assurance; the necessity to perform on site visits, detailed technical and legal checks of controls and paperwork, and the assurance and quality control of the findings. The risks are clear; failing to properly QA this work can lead to suspension or loss of licenses required to perform the audits that drive the business. As such, companies providing compliance as a service (CaaS) or simply providing the opportunity to be assessed, typically have very low profit margins and unnecessarily high costs thanks to having to protect themselves from human errors that can lead to punitive actions on behalf of the governing bodies they represent to assess.
+Current efforts to reach regulatory compliance are costly, unreliable and difficult to scale for most organisations. Engaging in these mandated projects frequently requires expertise in the particular framework in question, often with very different methodologies and levels of proscription and assessment. This has led to the compliance consulting industry being worth an estimated \$65 billion annually<sup>[12](#12)</sup> by 2025. The highest cost for these consultancies is that of quality assurance; the necessity to perform on site visits, detailed technical and legal checks of controls and paperwork, and the assurance and quality control of the findings. The risks are clear; failing to properly QA this work can lead to suspension or loss of licenses required to perform the audits that drive the business. As such, companies providing compliance as a service (CaaS) or simply providing the opportunity to be assessed, typically have very low profit margins and unnecessarily high costs thanks to having to protect themselves from human errors that can lead to punitive actions on behalf of the governing bodies they represent to assess.
 
-Regulators in the United States and Europe have imposed over $342 billion of regulatory fines in the last decade on banks alone<sup>[13](#13)</sup>. This figure does not include organisations, charities or corporations other than banks or governments. Regulation from governments and other centralised authorities is an expensive and mandated part of doing business in many globally competitive industries. The London-based HSBC Bank spent $2.2 billion on regulation and compliance in the first nine months of 2015, up 33% year on year<sup>[14](#14)</sup>. It is rare for even small organisations to be able to completely avoid some form of compliance, regulatory and legal requirements set upon it by outside authorities. In Canada alone, the cost to small and medium sized enterprises was almost $5 billion in 2011<sup>[15](#15)</sup>. In many cases, the requirements cause the organisation to create entirely new departments in order to cover the additional work. In addition to this high financial cost, risk, compliance and security departments in organisations across the world find a significant amount of their time taken complying with these regulations; often from multiple authorities with multiple compliance frameworks simultaneously. The result is that security departments frequently report reduction in security as an unintended consequence of attempting to reach compliance status while maintaining their additional responsibilities<sup>[16](#16)</sup>.
+Regulators in the United States and Europe have imposed over $342 billion of regulatory fines in the last decade on banks alone<sup>[13](#13)</sup>. This figure does not include organisations, charities or corporations other than banks or governments. Regulation from governments and other centralised authorities is an expensive and mandated part of doing business in many globally competitive industries. The London-based HSBC Bank spent $2.2 billion on regulation and compliance in the first nine months of 2015, up 33% year on year<sup>[14](#14)</sup>. It is rare for even small organisations to be able to completely avoid some form of compliance, regulatory and legal requirements set upon it by outside authorities. In Canada alone, the cost to small and medium sized enterprises was almost \$5 billion in 2011<sup>[15](#15)</sup>. In many cases, the requirements cause the organisation to create entirely new departments in order to cover the additional work. In addition to this high financial cost, risk, compliance and security departments in organisations across the world find a significant amount of their time taken complying with these regulations; often from multiple authorities with multiple compliance frameworks simultaneously. The result is that security departments frequently report reduction in security as an unintended consequence of attempting to reach compliance status while maintaining their additional responsibilities<sup>[16](#16)</sup>.
 
 The regulations, frameworks and legal requirements that are imposed by authorities on entities engaged in business, charitable work, religious endeavours, humanitarian aid and similar organised work are typically intended to provide feasible and efficiently verifiable methods by which to enforce certain controls and standards on unknown and arbitrary types of organisations. In practice, the breadth and depth of scenarios in which these standards are applied vary wildly. The result is a high risk of deviance from the intended outcome, a low level of trust or verification, and a centralisation of power in the hands of validating entities who have mixed levels of professionalism and quality control<sup>[17](#17)</sup>.
 
@@ -202,7 +202,7 @@ The Blockliance system uses a governance, risk and compliance (GRC) application 
 
 - An automated and upgradeable GRC aware dataset validation module with artificial intelligence.
 - An automated and standardised assurance system that enables both sides of any assurance relationship to engage in trustless and integrated assessment and validation of information over agreed time periods. This utilises the downloadable, dedicated, private IAA nodes with IAP Core.
-- A security metrics and risk rating system that enables valuable insights and actionable data for enhanced decision making, third party assurance, justification of budgets and expenditure,  cybersecurity return on investment (ROI) and the ability to contribute to and benefit from further big data analytics and features.
+- A security metrics and risk rating system that enables valuable insights and actionable data for enhanced decision making, third party assurance, justification of budgets and expenditure, cybersecurity return on investment (ROI) and the ability to contribute to and benefit from further big data analytics and features.
 - The Blockliance console dashboard that enables the visualisation and operation of the features of the system.
 
 The Blockliance system relies on a distributed multi-chain ledger involving multiple, separate participant to mitigate security issues, to enhance the performance of the network by lending computing resources and for token holders to enhance the network by participating in the selected consensus model protocols. Each participant, whether entities engaged in information assurance activities on the proving, verification or other perspectives, uses tokens to benefit from the network services. With the use of partner settlement layers, this can be done in an invisible, hassle-free and convenient way with traditional or modern methods of payment.
@@ -232,7 +232,7 @@ There are typically four main items that need to be addressed before an industry
 
 ## 4.0 Roadmap
 
-IAP Vision: *“The Information Assurance Platform aspires to conquer the issue of trust and assurance, enabling risk free information assurance for devices, individuals, organisations, companies and governments globally.”*
+IAP Vision: _“The Information Assurance Platform aspires to conquer the issue of trust and assurance, enabling risk free information assurance for devices, individuals, organisations, companies and governments globally.”_
 
 Blockliance Mission: “Through automation and assurance, we improve GRC outcomes by enabling implicit trust and safety between parties in order to save time and money while enhancing corporate partnerships and safety for consumers and end users.”
 
@@ -429,7 +429,7 @@ There are a growing number of potential use cases for IAP. Research into feasibi
 - Integrity of evidence
 - Forensic Science
 
-------
+---
 
 ## The Team
 
@@ -477,7 +477,7 @@ There are a growing number of potential use cases for IAP. Research into feasibi
 - Aperio Forensics
 - Ensign Media
 
-------
+---
 
 ## References
 
@@ -503,9 +503,9 @@ There are a growing number of potential use cases for IAP. Research into feasibi
 
 <a id="11">[11]</a> CIO Whitepapers Review. “What is a Daemon.” <https://whatis.ciowhitepapersreview.com/definition/daemon/>
 
-<a id="12">[12]</a> Grand View Research. “Enterprise Governance, Risk & Compliance Market Worth $64.6 Billion By 2025”. <https://www.grandviewresearch.com/press-release/global-enterprise-governance-riskcompliance-egrc-market>
+<a id="12">[12]</a> Grand View Research. “Enterprise Governance, Risk & Compliance Market Worth \$64.6 Billion By 2025”. <https://www.grandviewresearch.com/press-release/global-enterprise-governance-riskcompliance-egrc-market>
 
-<a id="13">[13]</a> Thomson Reuters. “U.S., EU fines on banks' misconduct to top $ 400 billion by 2020: report.” <https://www.reuters.com/article/us-banks-regulator-fines/u-s-eu-fines-on-banks-misconduct-to-top400-billion-by-2020-report-idUSKCN1C210B>
+<a id="13">[13]</a> Thomson Reuters. “U.S., EU fines on banks' misconduct to top \$ 400 billion by 2020: report.” <https://www.reuters.com/article/us-banks-regulator-fines/u-s-eu-fines-on-banks-misconduct-to-top400-billion-by-2020-report-idUSKCN1C210B>
 
 <a id="14">[14]</a> Gomedici.com. “Strategic Analysis of RegTech: A Hundred Billion-dollar Opportunity.” <https://gomedici.com/how-can-regtechs-help-financial-services-industry-overcome-the-burden-ofcompliance/>
 
