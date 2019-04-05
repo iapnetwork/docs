@@ -607,7 +607,7 @@ As described in the IAP White Paper<sup>[A2](#a2)</sup>, there are a number of d
 
 The IAP governance is managed by a set of smart contracts running on Core that allow anyone running an IAA node to interact with them. These smart contracts contain both procedural and machine learning algorithms that have the following features:
 
-- The management and maintenance of public/private key pairs issued to designated identities that have access to Git repositories and smart contract functions. IAP Network is actively researching on-chain solutions to this, such as the NuCypher KMS29.
+- The management and maintenance of public/private key pairs issued to designated identities that have access to Git repositories and smart contract functions. IAP Network is actively researching on-chain solutions to this, such as the NuCypher KMS<sup>[4](#4)</sup>.
 - The management and maintenance of roles and permissions of identity access to Git repositories and restricted smart contract functions.
 - The rules and regulations that identities must follow when maintaining IAP Network Git repositories, including creation of new repositories, branch maintenance, pull request submission and acceptance.
 - Identities are governed by an on-chain reputation system, where reputation is gained by metrics such as:
