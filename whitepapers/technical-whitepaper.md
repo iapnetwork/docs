@@ -1201,7 +1201,9 @@ The following briefly covers a range of advanced ZKP systems used within the IAP
   - Efficiency: Improvements to the arithmetic circuit complexity.
   - Scalability: Doubly scalable, both on verifier and prover.
   - Privacy: Believed to be post-quantum secure due to reliance only on collision-resistant hash functions.
-
+  
+- **ZK-SHARKs**: a zero-knowledge succinct hybrid arguments of knowledge, proposed recently by Virza el al. <sup>[92](#92)</sup>, is a hybrid between ZK-SNARKs and ZK-STARKs. Typically, zero-knowledge proofs achieve two out of three desired properties for large-scale circuits: (a) fast (milliseconds) verifier; (b) short proofs (kilo-bytes) ; and (c) a trusted setup phase for soundness or zero-knowledge. ZK-SHARKs combine the fast verification of zk-SNARKs with the no-trusted-setup of some non-succinct Non-interactive Zero-Knowledge Proofs.
+  
 The following table summarises the above advanced ZKPs and their properties:
 
 <table>
@@ -1543,6 +1545,8 @@ This IAP Technical White Paper is for information purposes only. IAP Network doe
 <a id="90">[90]</a> "Cryptology ePrint Archive: Report 2016/263 - Efficient Zero ...." 8 Mar. 2016, <https://eprint.iacr.org/2016/263>.<br>
 
 <a id="91">[91]</a> "Ligero - ACM Digital Library - Association for Computing Machinery." 30 Oct. 2017, <https://dl.acm.org/citation.cfm?id=3134104>.<br>
+
+<a id="92">[92]</a> "zk-SHARKs - Combining succinct verification and public-coin setup." 10 Apr. 2019, <https://dci.mit.edu/zksharks>.<br>
 
 <a id="a1">[A1]</a> “IAP Network - Products”, <https://iap.network/products>.<br>
 
