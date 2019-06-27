@@ -61,6 +61,7 @@ This document explains the computational verification techniques utilised within
     - [Underlying Protocols and Steps of ZK-STARKs](#underlying-protocols-and-steps-of-zk-starks)
     - [Usage of a ZK-STARK](#usage-of-a-zk-stark)
     - [Performance Evaluation of ZK-STARKs](#performance-evaluation-of-zk-starks)
+  - [ZK-SHARKs](#zk-sharks)
   - [Active Research and Development](#active-research-and-development)
   - [Conclusion](#conclusion)
   - [Copyright](#copyright)
@@ -1264,6 +1265,10 @@ The following graphs present concrete numbers of an evaluation of specific zero-
 
 For a more detailed evaluation we refer to the original whitepaper about ZK-STARKs by Ben-Sasson et al.<sup>[A14](#a14)</sup>.
 
+## ZK-SHARKs
+
+ZK-SHARKs, short for zero-knowledge succinct hybrid arguments of knowledge, were recently proposed by Virza el al. <sup>[A34](#a34)</sup>. and are a hybrid between ZK-SNARKs and ZK-STARKs. Typically, zero-knowledge proofs achieve two out of three desired properties for large-scale circuits: (a) fast (milliseconds) verifier; (b) short proofs (kilo-bytes); and (c) a trusted setup phase for soundness or zero-knowledge. ZK-SHARKs combine the fast verification of zk-SNARKs with the no-trusted-setup of some non-succinct Non-interactive Zero-Knowledge Proofs. Since this type of proof system was just recently proposed, IAP is actively monitoring its progress and will deploy ZK-SHARKs in Plato, IAPs Mainnet, when these proofs reach a certain level of maturity.
+
 ## Active Research and Development
 
 At the time of writing IAP Network is using state-of-the-art zero-knowledge protocols proposed by academic research such as ZK-SNARKs and ZK-STARKs, continuing the active area of research by the IAP team in zero-knowledge proof systems. IAP Network is establishing a benchmarking framework to compare its own implementation of ZK-SNARKs and ZK-STARKs to other ZK libraries and frameworks as mentioned in section "Existing Libraries and Implementations", the results of which will be shared under the IAP Open Standard. This framework comprises a common functionality (use cases) to be implemented while performing an 'apples-to-apples' comparison between the frameworks and various graphs to compare the data points gained from the benchmarking. The IAP Network team is comparing the ZK frameworks over a range of computational devices and settings in order to gain insights of the performance of ZK proof systems in these environments.
@@ -1471,3 +1476,5 @@ This IAP Technical White Paper is for information purposes only. IAP Network doe
 <a id="a32">[A32]</a> Micciancio, D.: 2010. A first glimpse of cryptography's Holy Grail. Commun. ACM 53, 3 (March 2010), 96-96. DOI: <https://doi.org/10.1145/1666420.1666445>.
 
 <a id="a33">[A33]</a> Stinson, D. R. (2005). Cryptography: theory and practice. CRC press.
+
+<a id="a34">[A34]</a> Virza M., Tromer E., Raykova M., "zk-SHARKs - Combining succinct verification and public-coin setup." 10 Apr. 2019, <https://dci.mit.edu/zksharks>.<br>
