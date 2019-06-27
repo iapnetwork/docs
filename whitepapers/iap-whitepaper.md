@@ -442,7 +442,7 @@ There are a growing number of potential use cases for IAP. Research into feasibi
 
 - Steve Franks, Frm Group CTO, Telenor
 - Philipp Wiendl, DevSecOps, Infrastructure
-- John Cattral, Blockchain Architect
+- John Cattrall, Blockchain Architect
 - Christopher Mosby, Cybersecurity, GRC
 - Robin Ankele, Cryptography
 - Angela Robinson, PhD, Cryptography
