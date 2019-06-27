@@ -1202,7 +1202,13 @@ The following briefly covers a range of advanced ZKP systems used within the IAP
   - Scalability: Doubly scalable, both on verifier and prover.
   - Privacy: Believed to be post-quantum secure due to reliance only on collision-resistant hash functions.
   
-- **ZK-SHARKs**: a zero-knowledge succinct hybrid arguments of knowledge, proposed recently by Virza el al. <sup>[92](#92)</sup>, is a hybrid between ZK-SNARKs and ZK-STARKs. Typically, zero-knowledge proofs achieve two out of three desired properties for large-scale circuits: (a) fast (milliseconds) verifier; (b) short proofs (kilo-bytes) ; and (c) a trusted setup phase for soundness or zero-knowledge. ZK-SHARKs combine the fast verification of zk-SNARKs with the no-trusted-setup of some non-succinct Non-interactive Zero-Knowledge Proofs.
+- **ZK-SHARKs**: a zero-knowledge succinct hybrid arguments of knowledge, proposed by Virza el al. <sup>[92](#92)</sup>, is a hybrid between ZK-SNARKs and ZK-STARKs. Typically zero-knowledge proofs achieve two out of three desired properties for large-scale circuits:
+
+  - fast (milliseconds) verifier.
+  - short proofs (kilo-bytes).
+  - a trusted setup phase for soundness or zero-knowledge.
+  
+ZK-SHARKs combine the fast verification of zk-SNARKs with the no-trusted-setup of some non-succinct Non-interactive Zero-Knowledge Proofs.
   
 The following table summarises the above advanced ZKPs and their properties:
 
