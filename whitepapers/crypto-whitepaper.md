@@ -1267,7 +1267,7 @@ For a more detailed evaluation we refer to the original whitepaper about ZK-STAR
 
 ## ZK-SHARKs
 
-ZK-SHARKs, short for zero-knowledge succinct hybrid arguments of knowledge, were recently proposed by Virza el al. <sup>[A34](#a34)</sup>. and are a hybrid between ZK-SNARKs and ZK-STARKs. Typically, zero-knowledge proofs achieve two out of three desired properties for large-scale circuits: (a) fast (milliseconds) verifier; (b) short proofs (kilo-bytes) ; and (c) a trusted setup phase for soundness or zero-knowledge. ZK-SHARKs combine the fast verification of zk-SNARKs with the no-trusted-setup of some non-succinct Non-interactive Zero-Knowledge Proofs. Since this type of proof system was just recently proposed, IAP is actively monitoring its progress and will deploy ZK-SHARKs in Plato, IAPs Mainnet, when these proofs reach a certain level of maturity.
+ZK-SHARKs, short for zero-knowledge succinct hybrid arguments of knowledge, were recently proposed by Virza el al. <sup>[A34](#a34)</sup>. and are a hybrid between ZK-SNARKs and ZK-STARKs. Typically, zero-knowledge proofs achieve two out of three desired properties for large-scale circuits: (a) fast (milliseconds) verifier; (b) short proofs (kilo-bytes); and (c) a trusted setup phase for soundness or zero-knowledge. ZK-SHARKs combine the fast verification of zk-SNARKs with the no-trusted-setup of some non-succinct Non-interactive Zero-Knowledge Proofs. Since this type of proof system was just recently proposed, IAP is actively monitoring its progress and will deploy ZK-SHARKs in Plato, IAPs Mainnet, when these proofs reach a certain level of maturity.
 
 ## Active Research and Development
 
