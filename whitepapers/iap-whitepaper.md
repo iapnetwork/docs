@@ -303,6 +303,10 @@ Blockliance Mission: “Through automation and assurance, we improve GRC outcome
         </td>
     </tr>
     <tr>
+        <td><strong>2019</strong></td>
+        <td></td>
+    </tr>
+    <tr>
         <td>2019 Q1</td>
         <td>
             <ul>
