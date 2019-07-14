@@ -696,6 +696,8 @@ Notable implementations are [Bitcoin](https://bitcoin.org/), [Litecoin](https://
 
 The introduction of Turing complete programming languages on top of blockchain layers allows the blockchain to perform computation and store state<sup>[32](#32)</sup>. Mining nodes act as distributed servers that will execute a smart contract and perform operations as instructed. This opens the possibility of creating and executing distributed applications that are truly owned by the community. The IAP can interact with these blockchains at in any of its layers.
 
+Smart contract usability and security is being improved by standardised structures and adopting a modular approach, giving the potential of creating new functionality without actually coding, or creating smart contracts that have been already screened for security vulenerabilities.
+
 Notable implementations are [Ethereum](https://www.ethereum.org/), [EOS](https://eos.io/), [NEO](https://neo.org/), [NEM](https://nem.io/), [QTUM](https://qtum.org/).
 
 #### Scalability
@@ -730,9 +732,9 @@ Notable implementations are [Hedera Hashgraph](http://www.hedera.com/), [Constel
 
 #### Permissioned Blockchains
 
-Private or permissioned blockchains exist on private networks, typically in use by enterprise systems. Multiple semi-trusted organisations can join the network by authentication with an off-chain Certificate Authority system, which can set up secure channels for limited participants to share and view sensitive data. Information is processed by signed transactions and is immutable within the system.
+Private or permissioned blockchains exist on private networks, typically in use by enterprise systems. Multiple semi-trusted organisations can join the network by authentication with either an off-chain Certificate Authority system or other custom authenticaction system, which can set up secure channels for limited participants to share and view sensitive data. Information is processed by signed transactions and is immutable within the system.
 
-Notable implementations are [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric), [Hyperledger Mercury](https://github.com/hashgraph/hl-mercury).
+Notable implementations are [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric), [Hyperledger Mercury](https://github.com/hashgraph/hl-mercury), [Corda R3](https://www.r3.com/platform), [NEM Enterprise](https://nem.io/enterprise).
 
 ### Consensus algorithms
 
@@ -755,6 +757,10 @@ In order to keep proportionality and in absence of a PoW system, the network nee
 On a Delegated Proof of Stake<sup>[43](#43),[44](#44)</sup> (DPoS) system, a smaller set of “representative” nodes (for example, in the case of EOS, 21 of them<sup>[45](#45)</sup>) will carry out all block validations until a new election happens. Each system assigns reputability (points that allow a node to win a “seat”) differently, and most allow for back-up validators to replace former reputable nodes before the “term” expires.
 
 Various projects such as [EOS](https://eos.io/), [Bitcoin-sCrypt](https://bitcoinscrypt.io/), [Steem](https://steem.com/), [Ark](https://ark.io/) and [Bitshares](https://bitshares.org/) are using DPoS. In this view of PoS, the stake allows every node to cast a proportionate number of share-votes when elections occur. This drastically reduces day-to-day operation times by simplifying the possible assignees to just a few out of the possible thousands of nodes. And when a representative doesn’t performed well, it can be voted out by community. However, DPoS requires voters to trust in elected validators, unlike PoW and PoS because stakeholders are incentivised to maintain the system out of self interest.
+
+#### Proof of Importance
+
+Concerns over the environmental impact of Proof of Work and the perceived nature of Proof of Stake to tend towards a centralised group of nodes, other consensus mechanisms have been proposed and are in active use. NEM<sup>[95](#95)</sup> introduced Proof of Importance that gives nodes an eligibility rating to determine whether they can add blocks to the blockchain. Similar to Proof of Stake, Proof of Importance requires a minimum stake to be able to mine blocks, however this is actually a vested amount that increases with time, starting with a small part of your stake which increases daily by a diminishing percentage. It also requires two other factors togther with the minimum stake to be able to mine, which are the transactions made to other NEM accounts and the number and size of recent transactions. These three factors are combined to generate a score that determines the nodes probability of mining a block.
 
 #### Practical Byzantine Fault Tolerance
 
@@ -1555,9 +1561,11 @@ This IAP Technical White Paper is for information purposes only. IAP Network doe
 
 <a id="92">[92]</a> "zk-SHARKs - Combining succinct verification and public-coin setup." 10 Apr. 2019, <https://dci.mit.edu/zksharks>.<br>
 
-<a id="92">[92]</a> "Komodo - Advanced Blockchain Technology - Whitepaper" 3 Jun. 2018, <https://komodoplatform.com/wp-content/uploads/2018/06/Komodo-Whitepaper-June-3.pdf>.<br>
+<a id="93">[93]</a> "Komodo - Advanced Blockchain Technology - Whitepaper" 3 Jun. 2018, <https://komodoplatform.com/wp-content/uploads/2018/06/Komodo-Whitepaper-June-3.pdf>.<br>
 
-<a id="92">[92]</a> "NEM - Cross Chain Swaps", <https://nemtech.github.io/concepts/cross-chain-swaps.html>.<br>
+<a id="94">[94]</a> "NEM - Cross Chain Swaps", <https://nemtech.github.io/concepts/cross-chain-swaps.html>.<br>
+
+<a id="95">[95]</a> "NEM - Proof of Importance", <https://docs.nem.io/ja/gen-info/what-is-poi>.<br>
 
 <a id="a1">[A1]</a> “IAP Network - Products”, <https://iap.network/products>.<br>
 
