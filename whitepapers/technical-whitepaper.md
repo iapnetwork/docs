@@ -147,7 +147,7 @@ The IAP Open Standard follows the Open Source Initiative<sup>[3](#3)</sup> on re
 - Unit testing coverage.
 - Security testing practices.
 - Deployment and continuous integration procedures.
-- Any imported libraries must be open source.
+- Any imported libraries must be open source licensed.
 
 ### Community Contributions
 
@@ -161,7 +161,7 @@ A key factor in the longevity and adoption of the IAP is encouraging usage by th
 
 ### An Agnostic Platform
 
-Distributed ledger technology (DLT) agnosticism is pervasive in the design of the IAP components, with its tooling using abstractions and supporting implementations over Ethereum, Bitcoin, Hyperledger Fabric and other DLTs. Support for each platform includes the assisted provision of contracts and supporting artifacts.
+Distributed ledger technology (DLT) agnosticism is pervasive in the design of the IAP components, with its tooling using abstractions and supporting implementations over Ethereum, Bitcoin, Hyperledger Fabric, Komodo, NEM and other DLTs. Support for each platform includes the assisted provision of contracts and supporting artifacts.
 
 An application that uses the proposed IAP Open Standard and the IAT will be able to pull and push verifiable information to and from a number of different DLT implementations.
 
@@ -172,13 +172,14 @@ In order to promote effective governance of the IAP, with the aim of enabling it
 - The controlling keys for network code repositories and other accounts to be managed on chain, by making use of decentralised key management systems<sup>[4](#4)</sup>.
 - Reviewing proposed changes to any code in any IAP code repository by reviewing submitted pull requests.
 - Modifying any code in any IAP code repository by merging a pull request in that repository.
+- Modifying any combination of code modules used within the IAP Stack.
 - Reviewing proposals for adding new code to any part of the IAP Stack.
 - Reviewing proposals for adding support for other DLTs to the IAP Core.
 - Reviewing and updating the token economic model.
 - Reviewing and implementing the addition, modification or deletion of network participants acting on any part of the IAP Stack.
 - Evaluating and implementing machine learning models that could provide assistance with future governance of the IAP.
 
-The IAP Client, acting as an Information Assurance Application node ([IAA node](#iaa-node)), drives and facilitates the polycentric governance review systems by enforcing the protocol that has been determined to be accepted by the relevant majority of stakeholders, in a weighted system of voting that is managed by ranking problem machine learning smart contracts on [Plato](#plato---iap-mainnet), the IAP Mainnet. The enforcement provided by the client is possible thanks to the fraud proof systems that include staking and slashing of tokens.
+The IAP Client, acting as an Information Assurance Application node ([IAA node](#iaa-node)), drives and facilitates the polycentric governance review systems by enforcing the protocol that has been determined to be accepted by the relevant majority of stakeholders, in a weighted system of voting that is managed by ranking problem machine learning smart contracts on [Plato](#plato---iap-mainnet), the IAP Mainnet. The enforcement provided by the client is possible thanks to the fraud proof systems that include staking and slashing of tokens. The creation and updating of these smart contracts is by community approved code updates and by combining the core contracts to perform new actions.
 
 For more information on the system, please refer to our machine intelligence overview<sup>[A4](#a4)</sup>.
 
