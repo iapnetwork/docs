@@ -246,7 +246,7 @@ The diagram below shows each of the Client components arranged into their releva
 
 #### Installation
 
-The IAP Admin page allows application developers to configure the set of features required for their application. A developer can use the page to decide which tools and services they need, along with any particular configuration options, giving them the ability to restrict application access to the IAP. The configuration files can be modified to install any combination of the IAT tools that is required by the third party application. Each of the tools are also configured at this stage. The page creates the necessary containers, scripts and instruction sets to enable the developer to deploy the IAP Client in their environment, whether that be on local, remote, or cloud infrastructure or a combination of these. Other configuration settings are also determined during installation such as the batching strategy to be used and the extended list of public blockchains for the broadcaster service to use (described below).
+The IAP Admin page allows application developers to configure the set of features required for their application. A developer can use the page to decide which tools and services they need, along with any particular configuration options, giving them the ability to restrict application access to the IAP. The configuration files can be modified to install any combination of the IAT tools that is required by the third party application. Each of the tools are also configured at this stage. The page creates the necessary containers, scripts and instruction sets to enable the developer to deploy their configured IAP Client in their environment, whether that be on local, remote, or cloud infrastructure or a combination of these. Other configuration settings are also determined during installation such as the user authentication service to be used, the batching strategy to be used and the extended list of public blockchains for the broadcaster service to use (described below).
 
 #### Software Development Kits (SDKs)
 
@@ -342,7 +342,7 @@ The Client layer provides support for the internal storage of data and their pro
 
 #### Communication Layer - Client
 
-The Client communication layer provides connector services between the compute layer, the permissioned nodes, the IAA nodes and the IAP Core. The following services are currently off-chain in the design (using CyberShields to verify the correctness of the output), while the IAP is actively researching on-chain solutions:
+The Client communication layer provides connector services between the compute layer, the permissioned nodes, the IAA nodes and the IAP Core. The following services are currently off-chain in the design (using CyberShields to verify the correctness of the output), while the IAP is actively researching on-chain solutions such as smart contracts that aggregate transactions with timed or multisig releases:
 
 - **Batching Strategy Service**: For instances where it is costly to process the output of each Client IAT tool’s Anchor hashes to the IAA node, the Client IAT outputs can be processed by a configurable batching strategy. The strategy takes a tuple of IAT tool outputs, in the order they were created, and creates a Merkle Trie of the complete set. The Merkle root hash is used as the Anchor hash for the Core IAT tool, and the Merkle trie is added to the tool metadata. The configuration settings determine which strategy will be processed and at what interval the process will occur.
 
@@ -350,7 +350,7 @@ The Client communication layer provides connector services between the compute l
 
   This service also listens to Core blockchains for events raised on IAT tool transactions it has published. When these events are raised this service collects the data and raises its own events. Applications can register to this service via the SDK to listen for these events and collect their IAT tool transaction information.
 
-Blockchain bridging solutions that can deliver on-chain interoperability between different blockchain platforms to replace off-chain services are being researched. Global standards organisation GS1<sup>[12](#12)</sup> recognises the importance of these solutions for driving data sharing on blockchain systems. Current solutions, such as Cosmos<sup>[13](#13)</sup>, AION<sup>[14](#14)</sup>, Wanchain<sup>[15](#15)</sup> and Polkadot<sup>[16](#16)</sup> are notable implementations.
+Blockchain bridging solutions deliver on-chain interoperability between different blockchain platforms to replace off-chain services are being actively researched. Global standards organisation GS1<sup>[12](#12)</sup> recognises the importance of these solutions for driving data sharing on blockchain systems. Current solutions such as such as Komodo<sup>[93](#93)</sup> notarising chains and NEM<sup>[94](#94)</sup> decentralised swaps, Cosmos<sup>[13](#13)</sup>, AION<sup>[14](#14)</sup>, Wanchain<sup>[15](#15)</sup> and Polkadot<sup>[16](#16)</sup> are notable implementations.
 
 ### Universal Daemon
 
@@ -374,7 +374,7 @@ The functionalities the IAA node smart contract layer provides includes:
 
 - **CyberTrace**, **CyberChain**, **CyberShield**, **CyberState**: Each of these IAT tools stores the tool Anchor hash and metadata regarding blockchain metrics for the Broadcaster Service to use when it processes the IAT tool Anchor hash for other public blockchains.
 
-- **Metrics**: The Metrics smart contract queries the Oracle smart contact for performance, cost and security information of public blockchains. This is then returned back to the Metrics smart contract via a callback function. The Metrics smart contract uses this data as input for algorithms that determine rankings on the public blockchains that are used within Core. Application configuration data is combined with these rankings to create a list of public blockchains that the Broadcaster Service uses. When an IAT tool transaction is created by an IAA node, this application specific list of Core blockchains is added to the tool metadata. The Broadcaster service then sends the Anchor hash of the tool to the specified list of Core blockchains.
+- **Metrics**: The Metrics smart contract queries Oracle smart contacts for performance, cost and security information of public blockchains. This is then returned back to the Metrics smart contract via a callback function. The Metrics smart contract uses this data as input for algorithms that determine rankings on the public blockchains that are used within Core. Application configuration data is combined with these rankings to create a list of public blockchains that the Broadcaster Service uses. When an IAT tool transaction is created by an IAA node, this application specific list of Core blockchains is added to the tool metadata. The Broadcaster service then sends the Anchor hash of the tool to the specified list of Core blockchains.
 
 - **Oracle**: This smart contract creates events for the Core Oracle Service listener. These are events for requesting data from the Oracle Server regarding blockchain performance, cost and security. These data are passed back to a callback function in the calling smart contract.
 
@@ -397,7 +397,7 @@ The pace of change in the blockchain community is rapid when considering solutio
 **Plato** is comprised of:
 
 - A distributed ledger technology that is capable of maintaining the full, current transactional world state.
-- A Turing complete smart contract layer.
+- A layer capable of executing a restricted set of IAP only smart contracts, ensuring that only transactions that are allowed by the open governed community are processed, keeping the processing to a completely focused set of actions. The IAP then does not allow any other transactions to be executed so that only applications that are built on the IAP can create transactions on Plato.
 - A proven consensus protocol that is highly resistant to malicious actors.
 - The ability to scale out high computation without impacting transaction performance or price on the blockchain.
 - A system that is maintainable and upgradable without impact to the functioning of the production blockchain.
@@ -422,7 +422,7 @@ Within the IAP Core, smart contracts process the IAT Anchor hashes with a maximu
 
 #### Metaconsensus
 
-Metaconsensus is a term used within the IAP to refer to the combined consensus information of multiple blockchains simultaneously. In some cases, applications using the IAP may prefer to pay above average costs in order to provide additional layers of redundancy to their data storage or data processing needs. In such cases, Plato will deliver the requested data to more suitable blockchains than simply itself and Ethereum (for example). This provides additional information assurance as to the integrity of a prover and the reliability of independent public verifications. Instead of consensus being provided by IAP alone, a combined consensus of *N* blockchains is calculated when validating a CyberTrace, CyberChain, CyberState or CyberShield.
+Metaconsensus is a term used within the IAP to refer to the combined consensus information of multiple blockchains simultaneously. In some cases, applications using the IAP may prefer to pay above average costs in order to provide additional layers of redundancy to their data storage or data processing needs. In such cases, Plato will deliver the requested data to other blockchains than simply itself such as Ethereum, Bitcoin, Komodo, NEM, etc. This provides additional information assurance as to the integrity of a prover and the reliability of independent public verifications. Instead of consensus being provided by IAP alone, a combined consensus of *N* blockchains is calculated when validating a CyberTrace, CyberChain, CyberState or CyberShield.
 
 #### Communication Layer - Core
 
@@ -438,7 +438,7 @@ This triangle of data points is collected by the Metaconsensus service and proce
 
 The following Core communication services are provided:
 
-- **Metaconsensus Service**: this service collects cost, performance and security data information, as described above, from public blockchains interfaced with IAP Core, such as Bitcoin and Ethereum. The collected data are analysed for past trends to output a weighted reference score. This score is comparable with all other IAP interfaced public blockchains. These data are collated and made available for the Oracle Service to query, which is used by applications when determining which other blockchains (in addition to Plato) to send IAT Anchors to. These services allow the application to be able to switch over to another Core blockchain if the blockchain is experiencing increased transaction costs. The switching choice is set in the Client configuration. They have three main functions:
+- **Metaconsensus Service**: this service collects cost, performance and security data information, as described above, from public blockchains interfaced with IAP Core, such as Bitcoin, Ethereum, Komodo, NEM, Energi, EOS, NEO, etc. The collected data are analysed for past trends to output a weighted reference score. This score is comparable with all other IAP interfaced public blockchains. These data are collated and made available for the Oracle Service to query, which is used by applications when determining which other blockchains (in addition to Plato) to send IAT Anchors to. These services allow the application to be able to switch over to another Core blockchain if the blockchain is experiencing increased transaction costs. The switching choice is set in the Client configuration. They have three main functions:
 
   - **Cost Analyser**: Collects the transaction costs of each of the Core blockchains and obtains a Gaussian distribution of current transaction costs, with positions of each blockchain on the curve. These data points are ranked and then analysed for past trends, which are used to predict possible forthcoming costs.
 
@@ -1554,6 +1554,10 @@ This IAP Technical White Paper is for information purposes only. IAP Network doe
 <a id="91">[91]</a> "Ligero - ACM Digital Library - Association for Computing Machinery." 30 Oct. 2017, <https://dl.acm.org/citation.cfm?id=3134104>.<br>
 
 <a id="92">[92]</a> "zk-SHARKs - Combining succinct verification and public-coin setup." 10 Apr. 2019, <https://dci.mit.edu/zksharks>.<br>
+
+<a id="92">[92]</a> "Komodo - Advanced Blockchain Technology - Whitepaper" 3 Jun. 2018, <https://komodoplatform.com/wp-content/uploads/2018/06/Komodo-Whitepaper-June-3.pdf>.<br>
+
+<a id="92">[92]</a> "NEM - Cross Chain Swaps", <https://nemtech.github.io/concepts/cross-chain-swaps.html>.<br>
 
 <a id="a1">[A1]</a> “IAP Network - Products”, <https://iap.network/products>.<br>
 
