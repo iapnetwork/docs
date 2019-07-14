@@ -71,6 +71,7 @@ The IAP is a set of tools (the Information Assurance Toolbelt) that runs across 
       - [Proof of Work](#proof-of-work)
       - [Proof of Stake](#proof-of-stake)
       - [Delegated Proof of Stake](#delegated-proof-of-stake)
+      - [Proof of Importance](#proof-of-importance)
       - [Practical Byzantine Fault Tolerance](#practical-byzantine-fault-tolerance)
       - [DAG Consensus Protocols](#dag-consensus-protocols)
     - [Hashing Algorithms](#hashing-algorithms)
