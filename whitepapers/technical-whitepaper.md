@@ -423,7 +423,7 @@ Within the IAP Core, smart contracts process the IAT Anchor hashes with a maximu
 
 #### Metaconsensus
 
-Metaconsensus is a term used within the IAP to refer to the combined consensus information of multiple blockchains simultaneously. In some cases, applications using the IAP may prefer to pay above average costs in order to provide additional layers of redundancy to their data storage or data processing needs. In such cases, Plato will deliver the requested data to other blockchains than simply itself such as Ethereum, Bitcoin, Komodo, NEM, etc. This provides additional information assurance as to the integrity of a prover and the reliability of independent public verifications. Instead of consensus being provided by IAP alone, a combined consensus of *N* blockchains is calculated when validating a CyberTrace, CyberChain, CyberState or CyberShield.
+Metaconsensus is a term used within the IAP to refer to the combined consensus information of multiple blockchains simultaneously. In some cases, applications using the IAP may prefer to pay above average costs in order to provide additional layers of redundancy to their data storage or data processing needs. In such cases, Plato will deliver the requested data to other blockchains than simply itself such as Ethereum, Bitcoin, Solana, Komodo, NEM, etc. This provides additional information assurance as to the integrity of a prover and the reliability of independent public verifications. Instead of consensus being provided by IAP alone, a combined consensus of *N* blockchains is calculated when validating a CyberTrace, CyberChain, CyberState or CyberShield.
 
 #### Communication Layer - Core
 
@@ -439,7 +439,7 @@ This triangle of data points is collected by the Metaconsensus service and proce
 
 The following Core communication services are provided:
 
-- **Metaconsensus Service**: this service collects cost, performance and security data information, as described above, from public blockchains interfaced with IAP Core, such as Bitcoin, Ethereum, Komodo, NEM, Energi, EOS, NEO, etc. The collected data are analysed for past trends to output a weighted reference score. This score is comparable with all other IAP interfaced public blockchains. These data are collated and made available for the Oracle Service to query, which is used by applications when determining which other blockchains (in addition to Plato) to send IAT Anchors to. These services allow the application to be able to switch over to another Core blockchain if the blockchain is experiencing increased transaction costs. The switching choice is set in the Client configuration. They have three main functions:
+- **Metaconsensus Service**: this service collects cost, performance and security data information, as described above, from public blockchains interfaced with IAP Core, such as Bitcoin, Ethereum, Komodo, Solana, NEM, Energi, EOS, NEO, etc. The collected data are analysed for past trends to output a weighted reference score. This score is comparable with all other IAP interfaced public blockchains. These data are collated and made available for the Oracle Service to query, which is used by applications when determining which other blockchains (in addition to Plato) to send IAT Anchors to. These services allow the application to be able to switch over to another Core blockchain if the blockchain is experiencing increased transaction costs. The switching choice is set in the Client configuration. They have three main functions:
 
   - **Cost Analyser**: Collects the transaction costs of each of the Core blockchains and obtains a Gaussian distribution of current transaction costs, with positions of each blockchain on the curve. These data points are ranked and then analysed for past trends, which are used to predict possible forthcoming costs.
 
@@ -681,7 +681,7 @@ Blockchain is a type of Distributed Ledger Technology<sup>[30](#30)</sup> that f
 Blockchain technology has advanced since the development of the Bitcoin network, driven by improvements to the smart contract systems, transaction processing times, system scalability and consensus mechanisms. IAP Network focuses on the following areas of distributed ledger technology development and research:
 
 - Transaction focused blockchains, such as [Bitcoin](https://bitcoin.org/), [Litecoin](https://litecoin.org/), [Dash](https://www.dash.org/), [Dogecoin](https://dogecoin.com/).
-- Blockchains with an integrated smart contract layer, such as [Ethereum](https://www.ethereum.org/), [EOS](https://eos.io/), [NEO](https://neo.org/), [NEM](https://nem.io/), [QTUM](https://qtum.org/).
+- Blockchains with an integrated smart contract layer, such as [Ethereum](https://www.ethereum.org/), [EOS](https://eos.io/), [NEO](https://neo.org/), [NEM](https://nem.io/), [Solana](https://solana.com/), [QTUM](https://qtum.org/).
 - Scalability solutions to support large user loads and micro transactions, such as [Lightning Network](https://lightning.network/), [Raiden](https://raiden.network/), [Loom](https://loomx.io/), [Plasma](https://plasma.io/plasma.pdf).
 - Directed Acyclic Graphs (DAG) are a different mechanism to store ledger transactions, aimed primarily at IoT device networks, such as [Hedera Hashgraph](http://www.hedera.com/), [Constellation Labs](https://www.constellationlabs.io/), [IOTA](https://www.iota.org/).
 
@@ -770,6 +770,10 @@ An optimisation of Byzantine Fault Tolerance introduced in the paper Practical B
 #### DAG Consensus Protocols
 
 DAG technologies use different consensus protocols to blockchains. Transactions are linked together as nodes on the graph, instead of transactions within a block, where processing each transaction includes previous transaction confirmations. Constellation Labs<sup>[47](#47)</sup> uses as reputation based consensus solution, where increased reputation leads to a higher chance of being selected as a delegate for performing consensus on designated checkpoint blocks, and thus earning block rewards. IOTA<sup>[48](#48)</sup> currently uses a off-chain coordinator, that creates transactions with no value every two minutes, and any transaction that is referenced by these milestone transactions have complete consensus. A future on-chain consensus model<sup>[49](#49)</sup> is proposed that uses a tip<sup>[50](#50)</sup> selection algorithm based on a MCMC<sup>[51](#51)</sup> technique, giving a probabilistic confirmation confidence of the transaction which increases with time. Hedera Hashgraph uses a consensus protocol built on asynchronous Byzantine Fault Tolerance, gossip protocol history hashgraph consistency and a virtual voting algorithm executed on the hashgraph<sup>[52](#52)</sup>. This protocol allows any node to push its updates to other nodes available at the time, with receiving nodes safely assuming that the blocks pushed by the other party are agreed upon implicitly, i.e. the act of carrying the copy of new changes relieves the sending node from separately voting for any of the changes included.
+
+#### Proof of History
+
+Proof of History<sup>[96](#96)</sup> (PoW) is a non time-based way to mark the passage of time using computational sequences of hash outputs from reliable hash algorithms. It is highly applicable to audit related functions that are required to demonstrate verifiable sequences of operations, processes, configurations and events, but can and is being used to verify traditional transactions that require higher time sensitivity. Example applications include [Solana](https://solana.com) and [Audit.ly](https://audit.ly). Since reliable and secure hash functions produce output that is not predictable from the input, a mixture of inputs known only to the operator can provide efficiently verifiable markers as to the passage of time and the inclusion of important data. The sequence of all data within the environment need not be recomputed. The function runs in sequence using the previous output as the next input, while recording how many times it has run and marking important milestones with the output of that call. This output can be re-computed by third parties in parallel by checking segments of sequences. Only the segments of interest need to be recomputed, allowing for verifier efficiency. Proof of History supports horizontal scaling. 
 
 ### Hashing Algorithms
 
@@ -1567,6 +1571,8 @@ This IAP Technical White Paper is for information purposes only. IAP Network doe
 <a id="94">[94]</a> "NEM - Cross Chain Swaps", <https://nemtech.github.io/concepts/cross-chain-swaps.html>.<br>
 
 <a id="95">[95]</a> "NEM - Proof of Importance", <https://docs.nem.io/ja/gen-info/what-is-poi>.<br>
+
+<a id="96">[96]</a> "Solana - Proof of History", <https://github.com/solana-labs/whitepaper/blob/master/solana-whitepaper-en.pdf>.<br>
 
 <a id="a1">[A1]</a> “IAP Network - Products”, <https://iap.network/products>.<br>
 
